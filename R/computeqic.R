@@ -13,11 +13,6 @@
 #' structures are compared.
 #'
 #' Models with smaller values of QIC, CIC, QICu, or QICC are preferred.
-#'
-#' If the MASS package is loaded then the \code{\link{ginv}} function is used
-#' for matrix inversion. Otherwise the standard \code{\link{solve}} function is
-#' used.
-#'
 #' @param object a fitted GEE model from the gee package.
 #' @return A vector or matrix with the QIC, QICu, quasi likelihood,
 #'     CIC, the number of mean effect parameters, and the corrected
@@ -48,7 +43,7 @@
 #' computeqic(fit)
 #'
 #' @export
-#' @import MASS
+#' @importFrom MASS ginv
 #' @importFrom stats coef
 #' @importFrom stats family
 
