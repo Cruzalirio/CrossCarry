@@ -27,17 +27,15 @@ jobs:
       - name: Set up pandoc
         uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Query dependencies
+      - name: Query dependencies and Check
         run: |
           Rscript -e "install.packages('remotes', repos='https://cloud.r-project.org')"
           Rscript -e "remotes::install_deps(dependencies = TRUE)"
           Rscript -e "install.packages(c('rcmdcheck','testthat'), repos='https://cloud.r-project.org')"
+          Rscript -e "rcmdcheck::rcmdcheck(args = c('--no-manual','--as-cran'), error_on = 'warning', check_dir = 'check')"
 
       - name: Session info
         run: Rscript -e "sessionInfo()"
-
-      - name: Check
-        run: Rscript -e "rcmdcheck::rcmdcheck(args = c('--no-manual','--as-cran'), error_on = 'warning', check_dir = 'check')"
 
       - name: Show testthat output
         if: always()
