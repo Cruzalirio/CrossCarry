@@ -64,7 +64,7 @@ If you use **CrossCarry**, please cite the methodological papers:
     
 - Cruz, N.A., et al. (2025).  
   *Penalized GEE for Complex Carry-Over in Repeated-Measures Crossover Designs*.  
-  (preprint / in review).
+  (preprint / in review). [DOI link](https://doi.org/10.48550/arXiv.2402.16362)
 
 You can also obtain the citation directly in R:
 
