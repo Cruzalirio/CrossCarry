@@ -1,0 +1,80 @@
+
+R version 4.5.1 (2025-06-13 ucrt) -- "Great Square Root"
+Copyright (C) 2025 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # This file is part of the standard setup for testthat.
+> # It is recommended that you do not modify it.
+> #
+> # Where should you do additional test configuration?
+> # Learn more about the roles of various files in:
+> # * https://r-pkgs.org/testing-design.html#sec-tests-files-overview
+> # * https://testthat.r-lib.org/articles/special-files.html
+> 
+> library(testthat)
+> library(CrossCarry)
+> 
+> test_check("CrossCarry")
+[1] "This variable was added to data: Carry_B"
+[2] "This variable was added to data: Carry_C"
+Beginning Cgee S-function, @(#) geeformula.q 4.13 98/01/27
+running glm to get initial regression estimate
+(Intercept)  TreatmentB  TreatmentC     Period2     Period3     Carry_B 
+    108.800       0.405      -7.755       4.700       3.575      -5.585 
+    Carry_C 
+     -7.565 
+[1] "This variable was added to data: Carry_B"
+[2] "This variable was added to data: Carry_C"
+Beginning Cgee S-function, @(#) geeformula.q 4.13 98/01/27
+running glm to get initial regression estimate
+(Intercept)  TreatmentB  TreatmentC     Period2     Period3     Carry_B 
+    108.800       0.405      -7.755       4.700       3.575      -5.585 
+    Carry_C 
+     -7.565 
+Beginning Cgee S-function, @(#) geeformula.q 4.13 98/01/27
+running glm to get initial regression estimate
+(Intercept)  TreatmentB  TreatmentC     Period2     Period3     Carry_B 
+    108.800       0.405      -7.755       4.700       3.575      -5.585 
+    Carry_C 
+     -7.565 
+[1] "This variable was added to data: Carry_B"
+[2] "This variable was added to data: Carry_C"
+[1] "This variable was added to data: Carry_B"
+[2] "This variable was added to data: Carry_C"
+Beginning Cgee S-function, @(#) geeformula.q 4.13 98/01/27
+[1] "This variable was added to data: Carry_B"
+[2] "This variable was added to data: Carry_C"
+Beginning Cgee S-function, @(#) geeformula.q 4.13 98/01/27
+running glm to get initial regression estimate
+(Intercept)  TreatmentB  TreatmentC     Period2     Period3     Carry_B 
+ 108.753586    0.405000   -7.847827    4.792827    3.667827   -5.585000 
+    Carry_C 
+  -7.611414 
+Beginning Cgee S-function, @(#) geeformula.q 4.13 98/01/27
+running glm to get initial regression estimate
+(Intercept)  TreatmentB  TreatmentC     Period2     Period3     Carry_B 
+ 108.753586    0.405000   -7.847827    4.792827    3.667827   -5.585000 
+    Carry_C 
+  -7.611414 
+[ FAIL 0 | WARN 0 | SKIP 1 | PASS 10 ]
+
+══ Skipped tests (1) ═══════════════════════════════════════════════════════════
+• On CRAN (1): 'test-correlation-matrices.R:2:3'
+
+[ FAIL 0 | WARN 0 | SKIP 1 | PASS 10 ]
+> 
+> proc.time()
+   user  system elapsed 
+   1.17    0.17    1.39 

@@ -1,0 +1,6 @@
+name	user	system	elapsed
+CrossGEE	0.10	0.02	0.11	
+CrossGEEKron	1.04	0.03	1.07	
+CrossGEESP	1.95	0.02	2.02	
+computeqic	0.02	0.00	0.03	
+createCarry	0.03	0.01	0.05	

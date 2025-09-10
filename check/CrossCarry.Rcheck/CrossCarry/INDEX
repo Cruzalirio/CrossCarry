@@ -1,0 +1,10 @@
+Arterial                Arterial pressure data of crossover design
+CrossGEE                Run a GEE model for data from a crossover
+                        experiment
+CrossGEEKron            Run a GEE model for data from a crossover
+                        experiment with repeated measures
+CrossGEESP              Run a semi-parametric GEE model for data from a
+                        crossover experiment with repeated measures
+Water                   Water student data of crossover design
+computeqic              Quasi Information Criterion
+createCarry             Add carryover dummy variables
