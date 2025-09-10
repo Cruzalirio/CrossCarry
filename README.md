@@ -80,6 +80,7 @@ CrossCarry has been applied in different contexts:
 
 - **Biomedical trials**: estimation of treatment and carry-over effects in blood pressure crossover studies.
 - **Nutrition and cognition**: water supplementation trial in schoolchildren.
+- **Software experiments**: estimation of learn rates in programming students. 
 - **Methodological research**: simulation studies comparing correlation structures in GEE.
 - **Ongoing work**: penalized GEE for spline-based carry-over effects, with applications in pharmacology.
 
