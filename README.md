@@ -50,12 +50,20 @@ fit$QIC
 
 If you use **CrossCarry**, please cite the methodological papers:
 
-- Cruz, N.A., Melo, O.O., Martínez, C.A., Alberich, R. (2023).  
+- Cruz, N.A., et.al. (2023).  
   *Semiparametric generalized estimating equations for repeated measurements in cross-over designs*.  
-  Statistical Papers. [DOI link](https://link.springer.com/article/10.1007/s00362-022-01391-z)
+  Statistical Methods in Medical Research. [DOI link](https://doi.org/10.1177/09622802231158736)
 
 - Cruz, N.A., et al. (2024).  
-  *Extensions of GEE methodology for crossover designs with repeated measures and complex carry-over effects*.  
+  *A correlation structure for the analysis of Gaussian and non-Gaussian responses in crossover experimental designs with repeated measures*.  
+  Statistical Papers. [DOI link](https://link.springer.com/article/10.1007/s00362-022-01391-z)
+  
+- Cruz, N.A., et al. (2023).  
+  *Analysis of cross-over experiments with count data in the presence of carry-over effects*.  
+  Statistica Neerlandica. [DOI link](https://doi.org/10.1111/stan.12295)
+    
+- Cruz, N.A., et al. (2025).  
+  *Penalized GEE for Complex Carry-Over in Repeated-Measures Crossover Designs*.  
   (preprint / in review).
 
 You can also obtain the citation directly in R:
