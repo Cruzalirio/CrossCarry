@@ -36,7 +36,7 @@ jobs:
           Rscript -e "
             rcmdcheck::rcmdcheck(args = c('--no-manual','--as-cran'), error_on = 'warning', check_dir = 'check');
             if (dir.exists('check')) {
-              files <- list.files('check', pattern = 'testthat\\.Rout.*', recursive = TRUE, full.names = TRUE);
+              files <- list.files('check', pattern = '\\\\.Rout.*', recursive = TRUE, full.names = TRUE);
               for (f in files) cat(readLines(f), sep='\n')
             }
           "
