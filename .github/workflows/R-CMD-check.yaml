@@ -41,6 +41,7 @@ jobs:
 
       - name: Show testthat output
         if: always()
+        shell: bash
         run: |
           find check -name 'testthat.Rout*' -exec cat '{}' \; || true
 
