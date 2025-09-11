@@ -2,4 +2,9 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^CRAN-SUBMISSION$
-^\\.github$
+^\.github($|/)
+^\.gitignore$
+^\.gitlab-ci\.yml$
+^README\.Rmd$
+^README\.md$
+^tests/testthat/_snaps$
