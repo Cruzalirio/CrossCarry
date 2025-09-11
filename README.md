@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="man/figures/CrossCarry_hex.png" width="200"/>
+</p>
+
 # CrossCarry <img src="https://cran.r-project.org/Rlogo.svg" width="35" align="right" />
 
 [![CRAN status](https://www.r-pkg.org/badges/version/CrossCarry)](https://CRAN.R-project.org/package=CrossCarry)
