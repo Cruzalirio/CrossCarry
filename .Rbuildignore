@@ -9,3 +9,4 @@
 ^README\.md$
 ^tests/testthat/_snaps$
 ^man/figures/CrossCarry_hex.png$
+^examples/
