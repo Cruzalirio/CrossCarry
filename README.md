@@ -54,6 +54,9 @@ fit$QIC
 ## Citation
 
 If you use **CrossCarry**, please cite the methodological papers:
+- Cruz, N.A., et. al. (2026).
+  *CrossCarry: An R package for the analysis of data from a crossover design with GEE*
+  SoftwareX. [DOI link](https://doi.org/10.1016/j.softx.2025.102482)
 
 - Cruz, N.A., et.al. (2023).  
   *Semiparametric generalized estimating equations for repeated measurements in cross-over designs*.  

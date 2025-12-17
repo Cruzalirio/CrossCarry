@@ -17,7 +17,7 @@ Depends: R (>= 4.0)
 Imports: dplyr, gee, ggplot2, splines, stats, MASS
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 NeedsCompilation: no
 Packaged: 2024-11-06 15:23:50 UTC; nelso
 Author: Nelson Alirio Cruz Gutierrez [aut, cre, cph],
