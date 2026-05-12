@@ -54,13 +54,14 @@ fit$QIC
 ## Citation
 
 If you use **CrossCarry**, please cite the methodological papers:
+    
+- Cruz, N.A., et al. (2026).  
+  *Penalized GEE for Complex Carry-Over in Repeated-Measures Crossover Designs*.  
+  Statistics in Medicine. [DOI link](https://doi.org/10.1002/sim.70561)
+  
 - Cruz, N.A., et. al. (2026).
   *CrossCarry: An R package for the analysis of data from a crossover design with GEE*
   SoftwareX. [DOI link](https://doi.org/10.1016/j.softx.2025.102482)
-
-- Cruz, N.A., et.al. (2023).  
-  *Semiparametric generalized estimating equations for repeated measurements in cross-over designs*.  
-  Statistical Methods in Medical Research. [DOI link](https://doi.org/10.1177/09622802231158736)
 
 - Cruz, N.A., et al. (2024).  
   *A correlation structure for the analysis of Gaussian and non-Gaussian responses in crossover experimental designs with repeated measures*.  
@@ -69,10 +70,12 @@ If you use **CrossCarry**, please cite the methodological papers:
 - Cruz, N.A., et al. (2023).  
   *Analysis of cross-over experiments with count data in the presence of carry-over effects*.  
   Statistica Neerlandica. [DOI link](https://doi.org/10.1111/stan.12295)
-    
-- Cruz, N.A., et al. (2025).  
-  *Penalized GEE for Complex Carry-Over in Repeated-Measures Crossover Designs*.  
-  (preprint / in review). [DOI link](https://doi.org/10.48550/arXiv.2402.16362)
+
+
+- Cruz, N.A., et.al. (2023).  
+  *Semiparametric generalized estimating equations for repeated measurements in cross-over designs*.  
+  Statistical Methods in Medical Research. [DOI link](https://doi.org/10.1177/09622802231158736)
+
 
 You can also obtain the citation directly in R:
 
